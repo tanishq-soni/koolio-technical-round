@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.levels p{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 270px;
+    height: 20px;
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.level0, .level1, .level2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    height: 300px;
+    width: 270px;
+}
+.l2btn, .l1btn, .l0btn{
+    background-color: rgb(133, 133, 133);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 300px;
+    border-right: 2px solid black;
+}
+button{
+    margin: 5px;
+    font-size: 23px;
+    background-color: red;
+    outline: none;
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+}
+button:focus{
+    background-color: greenyellow;
+}
+img{
+    height: 250px;
+    width: 220px;
+    margin-top: 15px;
+}
